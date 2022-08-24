@@ -11,6 +11,7 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    position: fixed;
 }
 
 .header > div > img {
@@ -27,9 +28,148 @@ body{
 }
 
 .header-title{
+    font-size: 15px;
+    color:rgb(155, 139, 139);
     margin: 20px;
 }
 
+.header-title-div-btn{
+    font-size: 15px;
+    color:rgb(155, 139, 139);
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.header-title-btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius: 25px 25px 25px 25px;
+}
+
+.body {
+    display: flex;
+    color: white;
+}
+
 .menu {
+    color:rgb(155, 139, 139);
     background-color: black;
+    height: 480px;
+    width: 220px;
+    margin-top: 60px;
+    position: fixed;
+}
+
+.section-menu-1{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.section-menu-2{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.section-menu-3{
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+
+.content{
+    margin-left: 220px;
+    margin-bottom: 80px;
+    flex: 1;
+}
+
+.section-content-title{
+    margin-top: 60px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.section-content-title > h1{
+    margin-left: 15px;
+}
+
+.section-content-title > h3{
+    color:rgb(155, 139, 139);
+    margin-left: 800px;
+}
+
+.section-content-title2{
+    display: flex;
+    align-content: flex-end;
+}
+
+.section-content-title2 > h1{
+    margin-left: 15px;
+}
+
+.section-content-title2 > h3{
+    color:rgb(155, 139, 139);
+    margin-left: 850px;
+}
+
+.section-content-title3{
+    display: flex;
+    align-content: flex-end;
+}
+
+.section-content-title3 > h1{
+    margin-left: 15px;
+}
+
+.section-content-title3 > h3{
+    color:rgb(155, 139, 139);
+    margin-left: 890px;
+}
+
+.section-content-albuns{
+    display: flex;
+}
+
+.section-content-albuns-album{
+    background-color: rgb(49, 46, 46);
+    margin-left: 30px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-content-albuns-album-img{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.footer{
+    color: white;
+    background-color: blueviolet;
+    margin: 0;
+    display: flex;
+    margin-top: auto;
+    position:fixed;
+}
+
+.footer-title{
+    margin-left: 20px;
+}
+
+.footer-title-1{
+    font-size: 10px;
+}
+
+.footer-title-2{
+    margin-top: 0;
+}
+
+.footer-btn{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 80px;
 }
