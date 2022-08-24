@@ -5,18 +5,18 @@ body{
     background-color: rgb(65, 61, 61);
 }
 
-.header{
-    background-color: rgba(0, 0, 0, 0.475);
-    color: white;
-    display: flex;
+header {
     width: 100%;
-    justify-content: space-between;
+    height: 10%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.475);
     position: fixed;
 }
 
-.header > div > img {
-    width: 120px;
-    padding: 10px;
+.header{
+    float: right;
+    color: white;
+    display: flex;
 }
 
 .header-div-title{
@@ -56,15 +56,29 @@ body{
 .menu {
     color:rgb(155, 139, 139);
     background-color: black;
-    height: 480px;
-    width: 220px;
-    margin-top: 60px;
+    height: 100%;
+    width: 18%;
+    float: left;
     position: fixed;
+}
+
+.menu > div > img {
+    width: 40%;
+    margin: 25px 40px;
 }
 
 .section-menu-1{
     font-size: 20px;
     margin-left: 40px;
+}
+
+.section-menu-inicio{
+    width: 30px;
+    display: flex;
+}
+
+.section-menu-inicio > img{
+    width: 15px;
 }
 
 .section-menu-2{
@@ -76,17 +90,15 @@ body{
 .section-menu-3{
     font-size: 10px;
     margin-left: 40px;
-    margin-top: 130px;
+    margin-top: 100%;
 }
 
 .content{
-    margin-left: 220px;
-    margin-bottom: 80px;
-    flex: 1;
+    margin-left: 18%;
 }
 
 .section-content-title{
-    margin-top: 60px;
+    margin-top: 5%;
     display: flex;
     align-content: flex-end;
 }
@@ -144,32 +156,4 @@ body{
     width: 150px;
     margin-top: 15px;
     border-radius: 10px;
-}
-
-.footer{
-    color: white;
-    background-color: blueviolet;
-    margin: 0;
-    display: flex;
-    margin-top: auto;
-    position:fixed;
-}
-
-.footer-title{
-    margin-left: 20px;
-}
-
-.footer-title-1{
-    font-size: 10px;
-}
-
-.footer-title-2{
-    margin-top: 0;
-}
-
-.footer-btn{
-    font-size: 20px;
-    color:rgb(0, 0, 0);
-    margin-top: 20px;
-    margin-left: 80px;
 }
