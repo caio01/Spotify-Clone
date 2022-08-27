@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 9pt;
     margin: 0;
     background-color: rgb(65, 61, 61);
@@ -7,11 +9,21 @@ body{
 
 header {
     width: 100%;
-    height: 7%;
+    height: 60px;
     float: right;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.475);
     position: fixed;
+}
+
+a {
+    color: rgb(155, 139, 139);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 .header{
@@ -25,8 +37,17 @@ header {
     display: flex;
 }
 
+.header-div-title > h2{
+    transition: 0.3s;
+}
+
+.header-div-title > h2:hover{
+    color: #ffffff;
+}
+
 .header > div > h1 {
-    margin: 13px;
+    margin: 14px 280px;
+    position: fixed;
 }
 
 .header-title{
@@ -42,12 +63,20 @@ header {
     margin-right: 8px;
 }
 
-.header-title-btn {
+.header-title-btn{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
     width: 100px;
     height: 40px;
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     border-radius: 25px 25px 25px 25px;
+}
+
+.header-title-btn:hover{
+    background-color: #d2d2d2;
+    width: 102px;
+    height: 42px;
 }
 
 .body {
@@ -76,6 +105,14 @@ header {
     margin-left: 40px;
 }
 
+.section-menu-1 > p{
+    transition: 0.4s;
+}
+
+.section-menu-1 > p:hover{
+    color: #ffffff;
+}
+
 .section-menu-inicio{
     width: 30px;
     display: flex;
@@ -91,10 +128,26 @@ header {
     margin-top: 40px;
 }
 
+.section-menu-2 > p{
+    transition: 0.4s;
+}
+
+.section-menu-2 > p:hover{
+    color: #ffffff;
+}
+
 .section-menu-3{
     font-size: 10px;
     margin-left: 40px;
     margin-top: 80%;
+}
+
+.section-menu-3 > p{
+    transition: 0.4s;
+}
+
+.section-menu-3 > p:hover{
+    color: #ffffff;
 }
 
 .content{
@@ -145,6 +198,10 @@ header {
     margin-left: 890px;
 }
 
+.content > a:hover {
+    text-decoration: overline;
+}
+
 .section-content-albuns{
     display: flex;
 }
@@ -170,12 +227,12 @@ header {
 .faq-content{
     margin-left: 19%;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: center;
 }
 
 .faq-content-title-1{
-    font-size: 260%;
+    font-size: 80%;
 }
 
 .faq-content-title-2{
@@ -200,9 +257,3 @@ header {
     text-align: center;
     font-weight: bold
 }
-
-
-
-
-
-
