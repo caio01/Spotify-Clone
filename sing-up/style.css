@@ -3,7 +3,7 @@
 body{
     font-family: 'Quicksand', sans-serif;
     font-size: 9pt;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     background-color: rgb(255, 255, 255);
     text-align: center;
     align-items: center;
@@ -18,12 +18,49 @@ body{
     font-size: 18px;
 }
 
+.div-img-sing-up{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.div-img-sing-up-facebook > a > img{
+    transition: 0.4s;
+}
+
 .div-img-sing-up-facebook > a > img:hover{
     width: 450px;
 }
 
+.div-img-sing-up-google > a > img{
+    transition: 0.4s;
+}
+
 .div-img-sing-up-google > a > img:hover{
     width: 425px;
+}
+
+.div-line-or{
+    width: 450px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.div-line-1{
+	height:2px;
+    width: 200px;
+	margin: 30px 25px 0 auto;
+	background-color:rgba(0, 0, 0, 0.145);
+}
+
+.div-or{
+    margin: 22px 0 0 0;
+}
+
+.div-line-2{
+	height:2px;
+    width: 200px;
+	margin: 30px auto 0 25px;
+	background-color:rgba(0, 0, 0, 0.145);
 }
 
 .div-form{
@@ -41,13 +78,13 @@ body{
 .form-cmp > input{
     margin: 0 0 15px 0;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     font-size: 18px;
     border-radius: 50px;
 }
 
 .form-cmp-birth{
-    width: 100%;
+    width: 95%;
     display: flex;
 }
 
@@ -81,7 +118,7 @@ body{
 }
 
 .form-cmp-sex > h3{
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 60px 0 3px;
 }
 
@@ -107,7 +144,7 @@ body{
 
 .div-btn{
     text-align: center;
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 0;
 }
 
 .div-btn > a > button{

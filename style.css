@@ -12,7 +12,7 @@ header {
     height: 60px;
     float: right;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.475);
+    background-color: rgba(0, 0, 0, 0.67);
     position: fixed;
 }
 
@@ -31,6 +31,7 @@ a:hover {
     color: white;
     display: flex;
     align-items: center;
+    font-weight: 900;
 }
 
 .header-div-title{
@@ -83,26 +84,38 @@ a:hover {
     display: flex;
     color: white;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .menu {
     color:rgb(155, 139, 139);
     background-color: black;
     height: 100%;
-    width: 18%;
+    width: 250px;
     float: left;
     position: fixed;
-    font-weight: bold
 }
 
 .menu > div > a > img {
-    width: 40%;
+    width: 150px;
     margin: 25px 40px;
 }
 
+.div-menu-line{
+    display: flex;
+}
+
+.material-icons{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    padding-top: 14px;
+}
+
 .section-menu-1{
-    font-size: 20px;
-    margin-left: 40px;
+    font-size: 16px;
+    margin-left: 30px;
 }
 
 .section-menu-1 > p{
@@ -118,14 +131,10 @@ a:hover {
     display: flex;
 }
 
-.section-menu-inicio > img{
-    width: 15px;
-}
-
 .section-menu-2{
-    font-size: 20px;
-    margin-left: 40px;
-    margin-top: 40px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .section-menu-2 > p{
@@ -139,7 +148,7 @@ a:hover {
 .section-menu-3{
     font-size: 10px;
     margin-left: 40px;
-    margin-top: 80%;
+    margin-top: 50px;
 }
 
 .section-menu-3 > p{
@@ -151,12 +160,12 @@ a:hover {
 }
 
 .content{
-    margin-left: 19%;
+    margin-left: 260px;
     width: 100%;
 }
 
 .section-content-title{
-    margin-top: 5%;
+    margin-top: 70px;
     display: flex;
     align-content: flex-end;
 }
@@ -208,16 +217,27 @@ a:hover {
 
 .section-content-albuns-album{
     background-color: rgb(49, 46, 46);
-    margin-left: 30px;
+    margin: 0 30px 0 30px;
     width: 190px;
     text-align: center;
     border-radius: 10px;
+    transition: 0.4s;
+}
+
+.section-content-albuns-album:hover{
+    background-color: rgb(80, 71, 71);
+}
+
+.section-content-albuns-album-img:hover{
+    width: 90%;
 }
 
 .section-content-albuns-album-img{
-    width: 150px;
+    width: 80%;
     margin-top: 15px;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.435);
+    transition: 0.4s;
 }
 
 
@@ -233,6 +253,7 @@ a:hover {
 
 .faq-content-title-1{
     font-size: 80%;
+    color: #48bd46;
 }
 
 .faq-content-title-2{
@@ -256,4 +277,14 @@ a:hover {
 .faq-content-list > ol{
     text-align: center;
     font-weight: bold
+}
+
+.faq-content-list > ol > a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.faq-content-list > ol > a:hover{
+    color: #48bd46;
 }
