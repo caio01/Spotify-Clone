@@ -1,3 +1,3 @@
 # clone-spotify
 
-Project in Developing
+Publish in https://caio01.github.io/clone-spotify/
