@@ -14,19 +14,12 @@ O mesmo busca colocar em prática assuntos discutidos em sala de aula sobre HTML
 
 ## Layout web
 ![image](https://user-images.githubusercontent.com/49879702/207682114-078359e1-7b35-4852-9b92-cf78156aa4a3.png)
+![image](https://user-images.githubusercontent.com/49879702/207685790-695e6677-e9fc-4c46-9aff-a87289788ea1.png)
+![image](https://user-images.githubusercontent.com/49879702/207685850-59cb3fce-7254-4f06-ac99-3e0f76f68d22.png)
 
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- Maven
-## Front end
 - HTML / CSS / JavaScript
 - Bootstrap
-## Implantação em produção
-- Back end: AWS
-- Front end web: AWS
-- Banco de dados: MongoDB (Atlas)
 
 # Autor
 
