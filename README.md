@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Publicado em: https://caio01.github.io/clone-spotify
+Publicado em: https://caio01.github.io/Spotify-Clone
 
 Esse projeto é uma das entregas da Disciplina de Desenvolvimento Web da Universidade de Fortaleza.
 O mesmo busca colocar em prática assuntos discutidos em sala de aula sobre HTML, CSS e JavaScript.
